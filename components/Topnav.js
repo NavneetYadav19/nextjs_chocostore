@@ -16,7 +16,7 @@ export default function Topnav(){
       menu: 'about',
     },{
       id: 3,
-      menu: 'menus'
+      menu: 'menu'
     },{
       id: 4,
       menu: 'contact',
@@ -48,7 +48,7 @@ export default function Topnav(){
         <div className="topnav-wrapper">
           <div className="logo">
             <div className="logo-wrapper">
-            <img src="/assets/img/logo/chocologo.png" className="w-12 h-20" alt="Logo" />
+            <img src="/assets/img/logo/chocologo.png" className="w-32 h-20 mb-4" alt="Logo" />
             </div>
           </div>
           <style jsx>{`
@@ -100,10 +100,10 @@ export default function Topnav(){
               </div>
             </div>
             <div className="logo">
-              <img src="assets/img/logo/02-gold.png" alt="Logo Gold" />
+            <img src="/assets/img/logo/chocologo.png" className="w-32 h-24 mb-4" alt="Logo" />
             </div>
-            <div className="text-container">
-              <h6 className="title uppercase font-semibold">Krapookya Cafe</h6>
+            <div className="text-container ml-6">
+              <h6 className="title uppercase font-semibold">Choco Store</h6>
               <p className="uppercase text-sm color-p font-light tracking-wider">
                 Sun-Thu: 12PM - 6PM<br/>
                 Fri-Sat: 12PM - 8PM
@@ -111,7 +111,7 @@ export default function Topnav(){
             </div>
           </div>
           <div className="scroll-wrapper">
-            <div className="menu-container">
+            <div className="menu-container gap-12">
               {menus.map((data, i) => (
                 <div key={`menu_${i}`} className={`menu uppercase font-semibold`}>
                   <Link href="/">{data.menu}</Link>

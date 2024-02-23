@@ -5,10 +5,10 @@ nav.topnav{
 }
 nav.topnav .topnav-wrapper{position:relative; display:flex; justify-content:space-between; height:5.5rem;}
 nav.topnav .topnav-wrapper > .logo{position:relative;  width:8rem; height:8rem;}
-nav.topnav .topnav-wrapper > .logo .logo-wrapper{position:absolute; bottom:3rem;}
-nav.topnav .topnav-wrapper > .logo img{
+/* nav.topnav .topnav-wrapper > .logo .logo-wrapper{position:absolute; bottom:-2rem;} */
+/* nav.topnav .topnav-wrapper > .logo img{
   display:block; max-width:100%; width:auto; max-height:100%; height:auto;
-}
+} */
 nav.topnav .topnav-wrapper > .menu-container{display:flex; padding:0 .25rem;}
 nav.topnav .topnav-wrapper > .menu-container .menu{
   display:flex; align-items:center; padding:0 2rem; transition:color .25s;
