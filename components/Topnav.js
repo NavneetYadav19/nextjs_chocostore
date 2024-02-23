@@ -81,7 +81,7 @@ export default function Topnav(){
               </div>
             </div>
           </div>
-          <div className="sidenav-toggle show-tablet" onClick={onToggleSidenav}>
+          <div className="sidenav-toggle w-12 show-tablet" onClick={onToggleSidenav}>
             <div className={`hamburger ${sidenavActive? 'active': ''}`}>
               <div></div><div></div><div></div>
             </div>

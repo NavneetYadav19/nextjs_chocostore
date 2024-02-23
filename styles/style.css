@@ -176,21 +176,7 @@ p.lg, .p.lg, li.lg, label.lg{font-size:1rem;}
 .ss-card-01{  
   position:absolute; top:-7rem; left:8rem; right:auto; bottom:0;
 }
-@media screen and (max-width:999.98px){
-  .ss-card-01{top:-3.5rem; left:4rem;}
-}
-@media screen and (max-width:768.98px){
-  .ss-card-01{top:-3rem; left:2rem;}
-}
-@media screen and (max-width:767.98px){
-  .ss-card-01{top:-5rem; left:auto; right:-17rem;}
-}
-@media screen and (max-width:639.98px){
-  .ss-card-01{top:-20rem; right:-60vw;}
-}
-@media screen and (max-width:375.98px){
-  .ss-card-01{top:-4rem; right:-13rem;}
-}
+
 
 
 /* Special Card 02 */

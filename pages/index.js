@@ -147,15 +147,15 @@ export default function Home() {
             <div className="grid grid-cols-12 flex-row-reverse">
               <div className="md:col-span-5 sm:col-span-8 col-span-12">
                 <div className="relative">
-                  <div className="ss-card ss-card-01">
+                  <div className="ss-card absolute md:top-[-7rem] top-0 md:left-[8rem] md:right-auto md:bottom-0">
                     <div className="ss-img no-hover vertical img-height">
-                      <div className="img-bg" style={{backgroundImage:`url('https://w0.peakpx.com/wallpaper/844/514/HD-wallpaper-chocolate-candy-love.jpg')`}}></div>
+                      <div className="img-bg md:w-full md:h-full h-32 w-[500px]" style={{backgroundImage:`url('https://w0.peakpx.com/wallpaper/844/514/HD-wallpaper-chocolate-candy-love.jpg')`}}></div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="md:col-span-7 sm:col-span-12 col-span-12 z-10 flex flex-col h-full">
-                <div className="flex md:ml-40">
+                <div className="flex md:ml-40 md:mt-2 mt-[180px]">
                   <div>
                     <h1 className="fade-down md:text-[45px] text-[18px] uppercase color-white font-semibold whitespace-nowrap">
                     Chocolate that makes<br/>     
